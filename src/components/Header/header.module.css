@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 90px;
+    padding-left: 30px;
+    background-color: rgb(98, 176, 178);
+    height: 65px;
+  }
+  .nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .link {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(78, 70, 70);
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .activeLink {
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(245, 243, 241);
+  }

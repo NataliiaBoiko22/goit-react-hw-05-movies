@@ -1,16 +1,14 @@
-export const App = () => {
+import URoutes from "./URoutes";
+import "../index.css";
+import Header from "./Header/Header";
+
+function App(){
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
+    <div className="container">
+      <Header />
+      <URoutes />
     </div>
+    
   );
 };
+export default App;
