@@ -1,27 +1,42 @@
-import { Link, useLocation } from "react-router-dom";
+import React from 'react';
+import propTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import styles from "./moviesList.module.css"
 
-const MoviesList = ({movies}) => {
-    const from = useLocation();
-    const elements = movies.map((movie) => <li  key={movie.id} className={styles.item}>
-        <Link  to={`/movies/${movie.id}`} state={{ from }} className={styles.link}>
-            <img
-                src={`https://image.tmdb.org/t/p/w600_and_h900_bestv2${movie.poster_path}`}
-                alt="title"
-                className={styles.poster}
-            />
-            <h2 className={styles.title}>{movie.title}</h2>
-        </Link>
-    </li>)
 
-    return(
-        <ul className={styles.list}>{elements}</ul>
-    )
-
+function MovieList({ movies, location }) {
+  return (
+    <ul className={styles.listWrapper}>
+       {movies &&
+        movies.map(movie => (
+          <li className={styles.movieItem} key={movie.id} >
+            <Link              
+              to={`movies/${movie.id}`}
+              state={{ from: location }}
+            >  
+                <img                  
+                  src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}
+                  alt={movie.title}
+                  className={styles.movieImg}
+                /> 
+                <p className={styles.movieTitle}>{movie.title}</p>                  
+            </Link>
+          </li>
+        ))}
+    </ul>
+  );
 }
 
-MoviesList.defaultProps = {
-    movies: []
-}
+MovieList.prototype = {
+  movies: propTypes.arrayOf(
+    propTypes.shape({
+      id: propTypes.number,
+      title: propTypes.string,
+      poster: propTypes.string,
+      voteAverage: propTypes.number,
+      voteCount: propTypes.number,
+    }),
+  ).isRequired,
+};
 
-export default MoviesList;
+export default MovieList;

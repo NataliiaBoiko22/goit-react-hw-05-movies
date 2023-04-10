@@ -1,0 +1,87 @@
+
+.main{
+    padding: 20px 100px;
+    margin: 0 auto;
+  }
+  .nav {
+    display: flex;
+   
+    justify-content: start;
+    gap: 30px;
+    background-color: rgb(139, 141, 136);
+    border-radius: 8px;
+    padding-left: 30px;
+  }
+
+  .link {
+    font-size: 24px;
+    text-decoration: none;
+    color: rgb(48, 46, 46);
+    padding: 10px;
+    font-weight: 600;
+  }
+  
+  .activeLink {
+    font-size: 24px;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    color: rgb(245, 243, 241);
+  }
+
+
+
+
+  .title{color: rgb(47, 50, 50);
+    font-size: 36x;
+    letter-spacing: 1.7;
+  } 
+    .Header > nav {
+      display: flex;
+      gap: 30px;
+      justify-content: start;
+      max-height: 40px;   
+    }
+
+/* .Header {background-color: rgba(204, 224, 224, 1);
+  background-image: linear-gradient(to right, rgba(204, 224, 224, 1), rgba(48, 56, 56, 1));
+  margin-bottom: 30px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  padding-top: 5px;}
+
+  .Header > nav {
+    display: flex;
+    gap: 30px;
+    justify-content: start;
+    max-height: 40px;   
+  }
+
+
+
+
+.Link {  padding: 8px 16px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 500;
+  transform: scale(1);
+  box-shadow: none;} 
+
+  .Link:first child{
+  margin-right: 30px;
+  }
+  .Link:hover,
+  .Link:focus {
+    transform: scale(1.1);
+    border: 1px solid rgba(41, 126, 128, 1);;
+    box-shadow: 0px 8px 8px 4px rgba(30, 46, 46, 1);
+  }
+  .Link.active {  
+    background-color: rgba(48, 136, 138, 1)};
+    .Link.active:hover,
+    .Link.active:focus {
+      border: none;
+      color: inherit;
+   }   */

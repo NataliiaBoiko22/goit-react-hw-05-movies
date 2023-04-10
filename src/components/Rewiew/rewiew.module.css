@@ -1,0 +1,29 @@
+
+.reviewContainer{
+   text-align: left;
+    padding: 20px 60px;
+} 
+
+.reviewList{
+    list-style-type: none; 
+} 
+
+.sorryText { 
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+}
+.reviewItem {
+    list-style-type: none; 
+}
+
+.reviewText {
+    font-size: 18px;
+}
+    
