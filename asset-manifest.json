@@ -1,19 +1,40 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-05-movies/static/css/main.77eb5580.css",
-    "main.js": "/goit-react-hw-05-movies/static/js/main.036a21c6.js",
-    "static/css/234.e638e7e3.chunk.css": "/goit-react-hw-05-movies/static/css/234.e638e7e3.chunk.css",
-    "static/js/234.dd91583a.chunk.js": "/goit-react-hw-05-movies/static/js/234.dd91583a.chunk.js",
-    "static/js/279.0fdc1519.chunk.js": "/goit-react-hw-05-movies/static/js/279.0fdc1519.chunk.js",
+    "main.css": "/goit-react-hw-05-movies/static/css/main.51022c16.css",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.30fab5e5.js",
+    "static/css/349.2a2ecb4a.chunk.css": "/goit-react-hw-05-movies/static/css/349.2a2ecb4a.chunk.css",
+    "static/js/349.1e7812aa.chunk.js": "/goit-react-hw-05-movies/static/js/349.1e7812aa.chunk.js",
+    "static/css/106.882e45d5.chunk.css": "/goit-react-hw-05-movies/static/css/106.882e45d5.chunk.css",
+    "static/js/106.b6a73f43.chunk.js": "/goit-react-hw-05-movies/static/js/106.b6a73f43.chunk.js",
+    "static/css/669.74136586.chunk.css": "/goit-react-hw-05-movies/static/css/669.74136586.chunk.css",
+    "static/js/669.9835dcde.chunk.js": "/goit-react-hw-05-movies/static/js/669.9835dcde.chunk.js",
+    "static/css/170.058e6605.chunk.css": "/goit-react-hw-05-movies/static/css/170.058e6605.chunk.css",
+    "static/js/170.9185d8f1.chunk.js": "/goit-react-hw-05-movies/static/js/170.9185d8f1.chunk.js",
+    "static/css/949.cbacc682.chunk.css": "/goit-react-hw-05-movies/static/css/949.cbacc682.chunk.css",
+    "static/js/949.358d076a.chunk.js": "/goit-react-hw-05-movies/static/js/949.358d076a.chunk.js",
+    "static/js/495.67cf52ed.chunk.js": "/goit-react-hw-05-movies/static/js/495.67cf52ed.chunk.js",
+    "static/js/46.30350110.chunk.js": "/goit-react-hw-05-movies/static/js/46.30350110.chunk.js",
+    "static/js/967.80fefede.chunk.js": "/goit-react-hw-05-movies/static/js/967.80fefede.chunk.js",
+    "static/media/face-png-42669.png": "/goit-react-hw-05-movies/static/media/face-png-42669.3b8f0317702d190a684b.png",
     "index.html": "/goit-react-hw-05-movies/index.html",
-    "main.77eb5580.css.map": "/goit-react-hw-05-movies/static/css/main.77eb5580.css.map",
-    "main.036a21c6.js.map": "/goit-react-hw-05-movies/static/js/main.036a21c6.js.map",
-    "234.e638e7e3.chunk.css.map": "/goit-react-hw-05-movies/static/css/234.e638e7e3.chunk.css.map",
-    "234.dd91583a.chunk.js.map": "/goit-react-hw-05-movies/static/js/234.dd91583a.chunk.js.map",
-    "279.0fdc1519.chunk.js.map": "/goit-react-hw-05-movies/static/js/279.0fdc1519.chunk.js.map"
+    "main.51022c16.css.map": "/goit-react-hw-05-movies/static/css/main.51022c16.css.map",
+    "main.30fab5e5.js.map": "/goit-react-hw-05-movies/static/js/main.30fab5e5.js.map",
+    "349.2a2ecb4a.chunk.css.map": "/goit-react-hw-05-movies/static/css/349.2a2ecb4a.chunk.css.map",
+    "349.1e7812aa.chunk.js.map": "/goit-react-hw-05-movies/static/js/349.1e7812aa.chunk.js.map",
+    "106.882e45d5.chunk.css.map": "/goit-react-hw-05-movies/static/css/106.882e45d5.chunk.css.map",
+    "106.b6a73f43.chunk.js.map": "/goit-react-hw-05-movies/static/js/106.b6a73f43.chunk.js.map",
+    "669.74136586.chunk.css.map": "/goit-react-hw-05-movies/static/css/669.74136586.chunk.css.map",
+    "669.9835dcde.chunk.js.map": "/goit-react-hw-05-movies/static/js/669.9835dcde.chunk.js.map",
+    "170.058e6605.chunk.css.map": "/goit-react-hw-05-movies/static/css/170.058e6605.chunk.css.map",
+    "170.9185d8f1.chunk.js.map": "/goit-react-hw-05-movies/static/js/170.9185d8f1.chunk.js.map",
+    "949.cbacc682.chunk.css.map": "/goit-react-hw-05-movies/static/css/949.cbacc682.chunk.css.map",
+    "949.358d076a.chunk.js.map": "/goit-react-hw-05-movies/static/js/949.358d076a.chunk.js.map",
+    "495.67cf52ed.chunk.js.map": "/goit-react-hw-05-movies/static/js/495.67cf52ed.chunk.js.map",
+    "46.30350110.chunk.js.map": "/goit-react-hw-05-movies/static/js/46.30350110.chunk.js.map",
+    "967.80fefede.chunk.js.map": "/goit-react-hw-05-movies/static/js/967.80fefede.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.77eb5580.css",
-    "static/js/main.036a21c6.js"
+    "static/css/main.51022c16.css",
+    "static/js/main.30fab5e5.js"
   ]
 }
